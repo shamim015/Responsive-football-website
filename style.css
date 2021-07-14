@@ -1,23 +1,39 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* common style */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+    background-color: #FFFFFF;
     margin: 0;
 }
+
+
+/* header style  */
 h1{
     font-size: 50px;
     font-weight: bold;
     color: white;
 }
+.link-button {
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
 .copa-america{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 102px;
+    align-items: center;
     background-color: #2D25A0;
 }
- .half-width{
-    
-     padding-left: 156px;
+ .half-width{   
+     padding-left: 300px;
      padding-bottom: 240px;
      padding-top: 207px;
      
@@ -28,11 +44,12 @@ h1{
     padding-bottom: 86px;
     padding-top: 153px;
 }
+
+/* All players */
 main{
     display: flex;
     flex-direction: column;
-    align-items: center;
-   
+    align-items: center;  
 }
 .main-container{
     display: grid;
@@ -40,12 +57,12 @@ main{
     grid-column-gap: 15px;
 }
 .container{
-    background-color: #FFFFFF;
+    background-color: #e8f8d5;
     width: 330px;
-    height: 474px;
+    height: 474px;|
     padding: 5px;
     margin-top: 21px;
-    border-radius: 5px;
+    border-radius: 5px;   
 }
 .player-blog{
    padding: 15px;
@@ -60,6 +77,41 @@ height: 256px;
 }
 .player-info{
     width: 300px;
-
 }
 
+/* Highlight style part */
+.highlight-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 102px;
+    align-items: center;
+}
+.highlight-title{
+    padding-left: 200px;
+     padding-bottom: 240px;
+     padding-top: 207px;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+ 
+
+  /* logo-social media-footer */
+.icon{
+    width: 483.87px;
+    height: 110px;   
+}
+.social-media{
+    text-align: center;  
+}
+#copyright{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+/* media Queries */
+@media only screen and (max-width:688) {
+    
+    
+}
