@@ -32,7 +32,7 @@ h1{
     align-items: center;
     background-color: #2D25A0;
 }
- .half-width{   
+ .copa-america-title{   
      padding-left: 300px;
      padding-bottom: 240px;
      padding-top: 207px;
@@ -113,5 +113,7 @@ h2{
 /* media Queries */
 @media only screen and (max-width:688) {
     
-    
+    .copa-america{
+        
+    }
 }
